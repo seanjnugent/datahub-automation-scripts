@@ -5,14 +5,14 @@ This project demonstrates how to run data validations using Great Expectations o
 ## Project Structure
 The project is structured as follows:
 
-validations/
-    __init__.py
-    postcode_validation.py
-    solar_validation.py
-.env
-config.txt
-validator_emit.ipynb
-validation_suite.py
+- validations/
+    - __init__.py
+    - postcode_validation.py
+    - solar_validation.py
+- .env
+- config.txt
+- validator_emit.ipynb
+- validation_suite.py
 
 ## Key Files
 validations/: Contains Python modules for validation logic, one file per table with multiple validations per file.
