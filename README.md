@@ -1,8 +1,8 @@
-#Great Expectations Datahub Integration
+# Great Expectations Datahub Integration
 
 This project demonstrates how to run data validations using Great Expectations on datasets stored in your database. It integrates with DataHub to send validation results and display under the Quality tab within a dataset. The project includes two simple validations.
 
-##Project Structure
+## Project Structure
 The project is structured as follows:
 
 ├── validations/
@@ -14,7 +14,7 @@ The project is structured as follows:
 ├── validator_emit.ipynb
 ├── validation_suite.py
 
-##Key Files
+## Key Files
 validations/: Contains Python modules for validation logic, one file per table with multiple validations per file.
 validation_suite.py: A module that combines and runs the individual validations.
 __init__.py: Allows for importing the modules and validation functions as a Python package.
@@ -22,7 +22,7 @@ __init__.py: Allows for importing the modules and validation functions as a Pyth
 config.txt: A basic configuration file that helps users set up their .env file.
 validator_emit.ipynb: Jupyter notebook for running validations and emitting results to DataHub.
 
-##Prerequisites
+## Prerequisites
 1. Set Up DataHub
 Before running validations, you need to have DataHub set up and running to capture the validation results.
 
@@ -35,7 +35,7 @@ Create a .env file based on the example config.txt. This file will store sensiti
 DATAHUB_SERVER_URL=<your_datahub_server_url>
 DATAHUB_TOKEN=<your_datahub_token>
 
-##Installation
+## Installation
 Clone this repository:
 Create and activate a virtual environment:
 Install the required package
