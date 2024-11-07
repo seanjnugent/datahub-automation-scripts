@@ -1,0 +1,19 @@
+lineages:
+  - source:
+      platform: "postgres"
+      dataset: "nrs_demo.public.babies_first_names_23_full_lists_boys"
+    target:
+      platform: "postgres"
+      dataset: "nrs_demo.public.babies_first_names_23_full_lists_all"
+    field_mappings:
+      - source_field: "name"
+        target_field: "First Forename"
+  - source:
+      platform: "postgres"
+      dataset: "nrs_demo.public.babies_first_names_23_full_lists_girls"
+    target:
+      platform: "postgres"
+      dataset: "nrs_demo.public.babies_first_names_23_full_lists_all"
+    field_mappings:
+      - source_field: "name"
+        target_field: "First Forename"
